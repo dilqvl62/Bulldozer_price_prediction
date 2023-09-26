@@ -4,7 +4,7 @@ In this project, I am going to use machine learning with the goal of predicting 
 I am going to use the evaluation metric ( root mean square log error or RMSLE) 
 
 # Data
-I got the data from Kaggle websit: [Dataset Description](https://www.kaggle.com/c/bluebook-for-bulldozers/data)
+I got the data from Kaggle webesit: [Dataset Description](https://www.kaggle.com/c/bluebook-for-bulldozers/data)
 
 The data is split into three parts 
 * Train.csv : is the training set
