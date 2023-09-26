@@ -20,3 +20,9 @@ For the data analysis and manipulation i imported pandas, Numpy, matplotlib
 * taking a look at the dataframe size and data types: 
 
 ![Screen Shot 2023-09-26 at 6 40 14 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/f3f48661-e2a5-4fe4-8657-0d0580ea2657)
+
+* Next to explore more the dataset, I ploted one of the most important column saleDate vs the target variable "SalePrice" by looking at the fisrt 1000 rows only
+
+![Screen Shot 2023-09-26 at 6 48 26 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/e538b576-6a08-4757-957e-0bdb8b089e93)
+
+
