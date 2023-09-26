@@ -26,7 +26,7 @@ For the data analysis and manipulation i imported pandas, Numpy, matplotlib
 ![Screen Shot 2023-09-26 at 6 48 26 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/e538b576-6a08-4757-957e-0bdb8b089e93)
 
 * I also did a distribution of the SalePrice (target variable)
-  It shows that most of the machines are below 20000 us dollars, and keep going less and less. There is no many that cost over 100000
+  It shows that most of the machines are below $20000, and keep going less and less. There is no many that cost over $100000
 
 ![Screen Shot 2023-09-26 at 6 52 52 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/842716da-eb27-4534-8de7-e51e4067cb9a)
 
