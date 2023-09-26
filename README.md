@@ -17,4 +17,6 @@ For the data analysis and manipulation i imported pandas, Numpy, matplotlib
 
 ![Screen Shot 2023-09-26 at 6 31 58 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/4269226e-5334-4f1d-8020-1e414f1e5e0c)
 
+* taking a look at the dataframe size and data types: 
 
+![Screen Shot 2023-09-26 at 6 40 14 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/f3f48661-e2a5-4fe4-8657-0d0580ea2657)
