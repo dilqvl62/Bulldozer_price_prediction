@@ -33,7 +33,11 @@ We can say that there are not many sells in 2008 and the highest sells were done
 ![Screen Shot 2023-09-26 at 6 52 52 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/842716da-eb27-4534-8de7-e51e4067cb9a)
 
 * Since this is a time series data 
+# Feature Engineering 
 
+* Extract some of values from saleDate and create some more columns to enrish the dataframe
+   
+![Screen Shot 2023-09-26 at 7 44 45 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/034233cb-d0f8-4bf6-8dce-35c58914ee4a)
 
 
 
