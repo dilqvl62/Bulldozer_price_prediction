@@ -99,9 +99,24 @@ After finding the best parameters by running this code **rs_model.best_params_**
 
 ## Making prediction of test data
 
-** test dataset have to look like the trained dataset so I create a function that takes a Dataframe as a parameter and performs transformation on the dataframe.
+**test dataset have to look like the trained dataset so I create a function that takes a Dataframe as a parameter and performs transformation on the dataframe.**
 
 ![Screen Shot 2023-09-27 at 11 55 54 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/1eefe347-eb3e-4830-85ce-5dbacf67cb88)
+
+Now let`s make a prediction on the test Dataset and format it to have only the SalesID, SalesPrice columns 
+
+![Screen Shot 2023-09-27 at 12 03 33 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/9b235418-cb13-4df8-a30c-d8516163f39d)
+
+### Feature Importance
+Lastly I created a function that seeks to figure out which features contributed the most the model 
+
+First i find the feature importance of the model by running this code: **ideal_model.feature_importances_**
+
+based on the my ideal_model the feature YearMade and ProductSize is best feature  
+
+![Screen Shot 2023-09-27 at 12 14 17 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/48a7cfd8-bee1-45c3-b187-c50dc8eef52e)
+
+
 
 
 
