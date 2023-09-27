@@ -86,6 +86,23 @@ Also the fact that the validation MAE is slightly higher than the training MAE s
 
 # Hyperparameter tuning with RandomizedSearchCV
 
+I wanted to find the ideal hyperparameter than the defaults one, so i created a dictionary.
+![Screen Shot 2023-09-27 at 11 13 01 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/177691f2-c171-444f-b5fc-4e560938bba7)
+
+After finding the best parameters by running this code **rs_model.best_params_**, I trained a model with the best parameters as follow: 
+
+![Screen Shot 2023-09-27 at 11 16 41 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/7ec63208-298d-4720-956e-1231a1a6ca85)
+
+***Scores of the ideal model screen shot*** 
+
+![Screen Shot 2023-09-27 at 11 45 45 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/769c99a3-afc5-4c73-9c81-07903ee96d87)
+
+## Making prediction of test data
+
+** test dataset have to look like the trained dataset so I create a function that takes a Dataframe as a parameter and performs transformation on the dataframe.
+
+![Screen Shot 2023-09-27 at 11 55 54 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/1eefe347-eb3e-4830-85ce-5dbacf67cb88)
+
 
 
 
