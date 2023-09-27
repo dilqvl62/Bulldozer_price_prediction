@@ -112,7 +112,7 @@ Lastly I created a function that seeks to figure out which features contributed 
 
 First i find the feature importance of the model by running this code: **ideal_model.feature_importances_**
 
-based on the my ideal_model the feature YearMade and ProductSize is best feature  
+based on the my ideal_model the feature YearMade and ProductSize are the best features   
 
 ![Screen Shot 2023-09-27 at 12 14 17 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/48a7cfd8-bee1-45c3-b187-c50dc8eef52e)
 
