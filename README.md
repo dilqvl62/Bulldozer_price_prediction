@@ -23,6 +23,7 @@ For the data analysis and manipulation i imported pandas, Numpy, matplotlib
 
 * Next to explore more the dataset, I ploted one of the most important column saleDate after parsing it vs the target variable "SalePrice" by looking at the fisrt 1000 rows only
 
+We can say that there are not many sells in 2008 and the highest sells were done in 2007
 ![Screen Shot 2023-09-26 at 7 29 44 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/3cad1fee-9cff-4226-aa5f-60905ca35606)
 
 
