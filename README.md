@@ -21,14 +21,17 @@ For the data analysis and manipulation i imported pandas, Numpy, matplotlib
 
 ![Screen Shot 2023-09-26 at 6 40 14 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/f3f48661-e2a5-4fe4-8657-0d0580ea2657)
 
-* Next to explore more the dataset, I ploted one of the most important column saleDate vs the target variable "SalePrice" by looking at the fisrt 1000 rows only
+* Next to explore more the dataset, I ploted one of the most important column saleDate after parsing it vs the target variable "SalePrice" by looking at the fisrt 1000 rows only
 
-![Screen Shot 2023-09-26 at 6 48 26 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/e538b576-6a08-4757-957e-0bdb8b089e93)
+![Screen Shot 2023-09-26 at 7 29 44 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/3cad1fee-9cff-4226-aa5f-60905ca35606)
+
 
 * I also did a distribution of the SalePrice (target variable)
-  It shows that most of the machines are below $20000, and keep going less and less. There is no many that cost over $100000
+  It shows that most of the machines are below $20000, and keeps going less and less. There are not many that cost over $100000
 
 ![Screen Shot 2023-09-26 at 6 52 52 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/842716da-eb27-4534-8de7-e51e4067cb9a)
+
+* Since this is a time series data 
 
 
 
