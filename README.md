@@ -79,9 +79,12 @@ We can say that there are not many sells in 2008 and the highest sells were done
 
 #### Call the show score function to see the scores of our model
 
-I expect this metrics to be worse because i only trained the model on 10000 samples. 
-![Screen Shot 2023-09-26 at 11 03 09 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/8a4c71ca-b842-4b42-ba17-cfefcab11162)
+I expect this metrics to be worse because I only trained the model on 10000 samples. 
+Also the fact that the validation MAE is slightly higher than the training MAE suggest that it is not overfitting.
 
+![Screen Shot 2023-09-26 at 11 11 12 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/d029c2f4-ff45-4047-bb67-bcaee71d35ef)
+
+# Hyperparameter tuning with RandomizedSearchCV
 
 
 
