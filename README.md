@@ -47,9 +47,10 @@ We can say that there are not many sells in 2008 and the highest sells were done
 
   ![Screen Shot 2023-09-26 at 8 07 56 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/96efc25d-13d0-4d74-aa5a-a2e13094c5f7)
 
+* Convert Strings to categories
+* I created a function that find columns which contain string values and **Convert** them to a category values
 
-
-
+![Screen Shot 2023-09-26 at 8 18 43 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/e21c780a-9180-4e4e-9956-bb204fbedddd)
 
 
 
