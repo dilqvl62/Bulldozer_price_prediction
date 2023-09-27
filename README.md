@@ -39,6 +39,15 @@ We can say that there are not many sells in 2008 and the highest sells were done
    
 ![Screen Shot 2023-09-26 at 7 44 45 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/034233cb-d0f8-4bf6-8dce-35c58914ee4a)
 
+## Modeling 
+
+* For creating a model, I am going to use RansomforestRegressor for the machine learing model
+
+* But Before creating a model, I have a lot of missing values, and not all of the features are numeric so I have to do some model driven EDA
+
+  ![Screen Shot 2023-09-26 at 8 07 56 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/96efc25d-13d0-4d74-aa5a-a2e13094c5f7)
+
+
 
 
 
