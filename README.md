@@ -53,9 +53,11 @@ We can say that there are not many sells in 2008 and the highest sells were done
 
 ![Screen Shot 2023-09-26 at 8 26 44 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/59574047-2d46-4df1-ba54-29dfc441e2a0)
 
+* Next i filled the numeric rows with the median ( median : just in case there are outliers)
+  **Turn categorical variable into numbers and fill missing values**
+  For that I created a function that cheeck if a value is non-numeric. If it is not numeric, a new column is created with True and False to indicate weather the value is missing or not. To handle missing categorical value, I added 1 to them because missing values are represented by -1. Adding 1 makes them 0, which signifies a missing categorical value with codes of 
 
-
-
+![Screen Shot 2023-09-26 at 9 44 56 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/0cf1d0db-97b5-4fe2-b851-6209f3935a66)
 
 
 
