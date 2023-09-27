@@ -73,7 +73,7 @@ We can say that there are not many sells in 2008 and the highest sells were done
    
 ![Screen Shot 2023-09-26 at 10 35 44 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/9f99a889-d50b-4f5a-b810-0b4f982e9d02)
 
-***for quiker result i change the max of samples to 10000 
+***for quiker result i change the max of samples to 10000***
 
 ![Screen Shot 2023-09-26 at 10 54 19 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/367e3755-c9f7-4733-9ca9-4c38d86ad4ad)
 
