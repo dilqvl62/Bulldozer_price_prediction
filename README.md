@@ -50,7 +50,9 @@ We can say that there are not many sells in 2008 and the highest sells were done
 * Convert Strings to categories
 * I created a function that find columns which contain string values and **Convert** them to a category values
 
-![Screen Shot 2023-09-26 at 8 18 43 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/e21c780a-9180-4e4e-9956-bb204fbedddd)
+![Screen Shot 2023-09-26 at 8 26 23 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/b9d7d22b-0731-4a4c-bf68-adc757d3fe0a)![Screen Shot 2023-09-26 at 8 26 44 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/59574047-2d46-4df1-ba54-29dfc441e2a0)
+
+
 
 
 
