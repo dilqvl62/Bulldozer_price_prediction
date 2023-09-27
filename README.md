@@ -54,11 +54,32 @@ We can say that there are not many sells in 2008 and the highest sells were done
 ![Screen Shot 2023-09-26 at 8 26 44 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/59574047-2d46-4df1-ba54-29dfc441e2a0)
 
 * Next i filled the numeric rows with the median ( median : just in case there are outliers)
+* 
   **Turn categorical variable into numbers and fill missing values**
+  
   For that I created a function that cheeck if a value is non-numeric. If it is not numeric, a new column is created with True and False to indicate weather the value is missing or not. To handle missing categorical value, I added 1 to them because missing values are represented by -1. Adding 1 makes them 0, which signifies a missing categorical value with codes of 
 
 ![Screen Shot 2023-09-26 at 9 44 56 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/0cf1d0db-97b5-4fe2-b851-6209f3935a66)
 
+
+## Building a machine learning model now that all our features contains numeric value
+
+   **Splitting data into train/validation sets**
+   I want all of the rows up to 2011 to be a training set, and all of the rows from the 2012 can be a validation set
+
+   ![Screen Shot 2023-09-26 at 10 07 49 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/0820044a-f726-4948-86d9-709fb4abbfcc)
+
+   **Building an evaluation function RMSLE**
+   
+![Screen Shot 2023-09-26 at 10 35 44 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/9f99a889-d50b-4f5a-b810-0b4f982e9d02)
+
+***for quiker result i change the max of samples to 10000 
+
+![Screen Shot 2023-09-26 at 10 54 19 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/367e3755-c9f7-4733-9ca9-4c38d86ad4ad)
+
+#### Call the show score function to see the scores of our model
+
+![Screen Shot 2023-09-26 at 11 03 09 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/8a4c71ca-b842-4b42-ba17-cfefcab11162)
 
 
 
