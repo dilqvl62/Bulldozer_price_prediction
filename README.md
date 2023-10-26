@@ -59,20 +59,13 @@ We can say that there are not many sells in 2008 and the highest sells were done
   
   For that I created a function that cheeck if a value is non-numeric. If it is not numeric, a new column is created with True and False to indicate weather the value is missing or not. To handle missing categorical value, I added 1 to them because missing values are represented by -1. Adding 1 makes them 0, which signifies a missing categorical value with codes of 
 
-![Screen Shot 2023-09-26 at 9 44 56 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/0cf1d0db-97b5-4fe2-b851-6209f3935a66)
-
-
 ## Building a machine learning model now that all our features contains numeric value
 
    **Splitting data into train/validation sets**
    I want all of the rows up to 2011 to be a training set, and all of the rows from the 2012 can be a validation set
-
-   ![Screen Shot 2023-09-26 at 10 07 49 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/0820044a-f726-4948-86d9-709fb4abbfcc)
-
+   
    **Building an evaluation function RMSLE**
    
-![Screen Shot 2023-09-26 at 10 35 44 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/9f99a889-d50b-4f5a-b810-0b4f982e9d02)
-
 ***for quiker result i change the max of samples to 10000***
 
 ![Screen Shot 2023-09-26 at 10 54 19 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/367e3755-c9f7-4733-9ca9-4c38d86ad4ad)
@@ -87,13 +80,12 @@ Also the fact that the validation MAE is slightly higher than the training MAE s
 # Hyperparameter tuning with RandomizedSearchCV
 
 I wanted to find the ideal hyperparameter than the defaults one, so i created a dictionary.
-![Screen Shot 2023-09-27 at 11 13 01 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/177691f2-c171-444f-b5fc-4e560938bba7)
 
 After finding the best parameters by running this code **rs_model.best_params_**, I trained a model with the best parameters as follow: 
 
 ![Screen Shot 2023-09-27 at 11 16 41 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/7ec63208-298d-4720-956e-1231a1a6ca85)
 
-***Scores of the ideal model screen shot*** 
+***Scores of the ideal model*** 
 
 ![Screen Shot 2023-09-27 at 11 45 45 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/769c99a3-afc5-4c73-9c81-07903ee96d87)
 
@@ -101,11 +93,9 @@ After finding the best parameters by running this code **rs_model.best_params_**
 
 **test dataset have to look like the trained dataset so I create a function that takes a Dataframe as a parameter and performs transformation on the dataframe.**
 
-![Screen Shot 2023-09-27 at 11 55 54 AM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/1eefe347-eb3e-4830-85ce-5dbacf67cb88)
-
 Now let`s make a prediction on the test Dataset and format it to have only the SalesID, SalesPrice columns 
 
-![Screen Shot 2023-09-27 at 12 03 33 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/9b235418-cb13-4df8-a30c-d8516163f39d)
+![Screen Shot 2023-10-26 at 5 17 29 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/c547294b-ebcd-48a1-8559-a91533a4347c)
 
 ### Feature Importance
 Lastly I created a function that seeks to figure out which features contributed the most the model 
@@ -114,7 +104,8 @@ First i find the feature importance of the model by running this code: **ideal_m
 
 based on the my ideal_model the feature YearMade and ProductSize are the best features   
 
-![Screen Shot 2023-09-27 at 12 14 17 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/48a7cfd8-bee1-45c3-b187-c50dc8eef52e)
+![Screen Shot 2023-10-26 at 5 18 13 PM](https://github.com/dilqvl62/Bulldozer_price_prediction/assets/107519883/12af245c-4afe-4700-acae-9f9ed7ecb156)
+
 
 
 
